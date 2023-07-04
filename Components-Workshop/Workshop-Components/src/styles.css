@@ -99,6 +99,15 @@ blockquote p.author {
     text-align: right;
 }
 
+/* Global styles */
+
+body {
+    max-width: 1366px;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+}
+
 /* Handles Responsiveness */
 
 @media (min-width: 800px) {

@@ -3,12 +3,7 @@
 @import url('typography.css');
 @import url('responsive.css');
 
-body {
-    max-width: 1366px;
-    margin: auto;
-    position: relative;
-    min-height: 100vh;
-}
+
 
 .container {
     width: 90%;
