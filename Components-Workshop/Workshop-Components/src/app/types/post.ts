@@ -9,5 +9,5 @@ export interface Post {
   themeId: Theme;
   created_at: string;
   updatedAt: string;
-  __v: 0;
+  __v: number;
 }
