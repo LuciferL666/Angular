@@ -108,6 +108,25 @@ body {
     min-height: 100vh;
 }
 
+
+h2 {
+    text-align: center;
+    border-bottom: 1px dashed #999;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    background-color: #4ebced;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 /* Handles Responsiveness */
 
 @media (min-width: 800px) {
