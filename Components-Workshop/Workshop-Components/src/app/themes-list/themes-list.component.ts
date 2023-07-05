@@ -13,7 +13,7 @@ themesList: Theme[] = [];
 
   ngOnInit(): void {
     this.apiService.getThemes().subscribe((themes) => {
-      console.log(themes[0]);
+      //console.log(themes[0]);
       this.themesList = themes
     });
   }
